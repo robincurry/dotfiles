@@ -1,0 +1,9 @@
+export PATH=/opt/local/bin:/opt/local/sbin:/opt/local/lib/ruby/gems/1.8/gems/:/opt/local/apache2/bin:$PATH
+export PATH=$PATH:~/bin
+export PATH=/usr/local/git/bin:$PATH
+export MANPATH=/usr/local/git/man:$MANPATH
+export PERL5LIB=$PERL5LIB:/opt/local/lib/perl5/site_perl/5.8.8/darwin-2level/IO/
+
+export EDITOR="mate -w"
+export SVN_EDITOR="mate -w"
+export GIT_EDITOR="mate -w"
