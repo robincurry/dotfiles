@@ -69,6 +69,5 @@ branch=${BASH_REMATCH[1]}
   fi
 }
 
-# PS1="\w $ "
-PS1="\n\u:\[$EWHITE\]\w \[$YELLOW\]\$(parse_git_branch) \[$NO_COLOR\] \n→ "
-# PS1="\n\u:\[$EWHITE\]\w $(parse_git_branch) \[$NO_COLOR\] \n→ "
+
+PS1="\n\[$PURPLE\]\h\[$NO_COLOR\] \u:\[$EWHITE\]\w  \[$YELLOW\]\$(parse_git_branch) \[$NO_COLOR\] \n→ "
